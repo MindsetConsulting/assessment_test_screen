@@ -1,0 +1,59 @@
+<mvc:View
+    controllerName="quizapp.controller.QuizQuestion"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+    <VBox class="sapUiSmallMargin">
+        <f:SimpleForm
+            id="SimpleFormDisplay354"
+            editable="false"
+            layout="ResponsiveGridLayout"
+            title="{newModel>/question/title}"
+            labelSpanXL="3"
+            labelSpanL="3"
+            labelSpanM="3"
+            labelSpanS="12"
+            adjustLabelSpan="false"
+            emptySpanXL="4"
+            emptySpanL="4"
+            emptySpanM="4"
+            emptySpanS="0"
+            columnsXL="1"
+            columnsL="1"
+            columnsM="1"
+            singleContainerFullSize="false"
+        >
+            <f:content>
+                <VBox>
+                    <CheckBox
+                        text="Option a"
+                    />
+                    <CheckBox text="Option b" />
+                    <CheckBox
+                        text="Option c"
+                    />
+                    <CheckBox text="Option d" />
+                </VBox>
+            </f:content>
+        </f:SimpleForm>
+        </VBox>
+        <footer>
+            <Bar>
+                <contentRight>
+                    <Button text="Back" press="handleBackBtn"/>
+                    <Button
+                        type="Emphasized"
+                        text="Next"
+                        press="handleNextBtn"
+                    />
+                </contentRight>
+            </Bar>
+        </footer>
+    </Page>
+</mvc:View>

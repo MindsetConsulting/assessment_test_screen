@@ -1,0 +1,59 @@
+{
+    "Questions":
+    [
+        {
+            "title": "What is the full form of SAP BPA?",
+            "options": [
+                {
+                    "option": "",
+                    "correctOption": true
+                }
+            ]
+        },
+        {
+            "title": "How to access SAP BPA from SAP BTP Cockpit?",
+            "options": [
+                {
+                    "option": "",
+                    "correctOption": true
+                }
+            ]
+        },
+        {
+            "title": "What is BPA?",
+            "options": [
+                {
+                    "option": "",
+                    "correctOption": true
+                }
+            ]
+        },
+        {
+            "title": "What is the full form of SAP BPA?",
+            "options": [
+                {
+                    "option": "",
+                    "correctOption": true
+                }
+            ]
+        },
+        {
+            "title": "What is the full form of SAP",
+            "options": [
+                {
+                    "option": "",
+                    "correctOption": true
+                }
+            ]
+        },
+        {
+            "title": "What is the full form of SAP BPA?",
+            "options": [
+                {
+                    "option": "",
+                    "correctOption": true
+                }
+            ]
+        }
+    ]
+}

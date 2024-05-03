@@ -1,0 +1,47 @@
+<mvc:View
+    controllerName="quizapp.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+    	<Panel width="auto" class="sapUiResponsiveMargin" accessibleRole="Region">
+        <!-- <HeaderContainer > -->
+        <HBox width="100%">
+            <VBox width="50%" class="sapUiSmallMarginBegin sapUiSmallMarginTop">
+                <Label text="Candidate Name:" class="sapUiTinyMarginBottom"/>
+                <Label text="Email:" class="sapUiTinyMarginBottom"/>
+                <Label text="Designation:" class="sapUiTinyMarginBottom"/>
+                <Label text="Manager:" class="sapUiTinyMarginBottom"/>
+            </VBox>
+
+            <HBox
+                justifyContent="End"
+                width="50%"
+            >
+            <VBox width="50%" class="sapUiSmallMarginTop">
+                <Label text="Total Time:"  class="sapUiTinyMarginBottom"/>
+                <Label text="Timer:"  class="sapUiTinyMarginBottom"/>
+                <Label text="Total Questions:"  class="sapUiTinyMarginBottom"/>
+                <Label text="Total Marks:" class="sapUiTinyMarginBottom" />
+                <Label text="Pass Marks:"  class="sapUiTinyMarginBottom"/>
+            </VBox>
+            </HBox>
+        </HBox>
+        </Panel>
+        <!-- <HBox justifyContent="Center" alignContent="End">
+            <Button text="Start Test"></Button>
+        </HBox> -->
+        <footer>
+        <Bar>
+        <contentRight>
+            <Button text="Start Test" type="Emphasized" press="onNavToQuestions"></Button>
+        </contentRight>
+        </Bar>
+        </footer>
+        <!-- </HeaderContainer> -->
+    </Page>
+</mvc:View>
